@@ -15,29 +15,26 @@ public class exercicio3 {
 		
 		String nome;
 		double vendas, salario, total;
+		Scanner teclado = new Scanner (System.in);
 		
 		System.out.println("Escreva seu nome:");
-			Scanner teclado = new Scanner (System.in);
 			nome = teclado.nextLine();
 			
 			
 		System.out.println("------------------------------------");
 		
 		System.out.println("Escreva seu salário FIXO:");
-			Scanner teclado1 = new Scanner (System.in);
 			salario = teclado.nextDouble();
 			
 
 		System.out.println("------------------------------------");
 			
 		System.out.println("Escreva quanto você vendeu este mês:");
-			Scanner teclado2 = new Scanner (System.in);
 			vendas = teclado.nextDouble();
 			
 			
 			teclado.close();
-			teclado1.close();
-			teclado2.close();
+			
 			
 			total = (vendas*15/100) + salario;
 			
