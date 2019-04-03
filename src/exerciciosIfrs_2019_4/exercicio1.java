@@ -29,7 +29,7 @@ public class exercicio1 {
 		
 		int resposta;
 		
-		System.out.println("Escreva um número de 1 à 10");
+		System.out.println("Digite um valor");
 			resposta = teclado.nextInt();
 			teclado.close();
 			
@@ -46,7 +46,7 @@ public class exercicio1 {
 					case 8: System.out.println("A posição do número " + resposta + " é a 7!"); break;
 					case 9: System.out.println("A posição do número " + resposta + " é a 8!"); break;
 					case 10: System.out.println("A posição do número " + resposta + " é a 9!"); break;
-					default:System.out.println("Por favor, escolha um número válido!");
+					default:System.out.println("Valor não encontrado!");
 				} 
 			System.out.println("----------------------------------------------------");
 	}
