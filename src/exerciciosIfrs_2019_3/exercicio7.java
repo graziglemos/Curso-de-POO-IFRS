@@ -17,6 +17,7 @@ public class exercicio7 {
 			System.out.println("Escreva o nome de um dia da semana:");
 				diaSemana = teclado.nextLine();
 				teclado.close();	
+				System.out.println("----------------------------------------------------");
 			
 					switch (diaSemana){
 						
@@ -27,7 +28,9 @@ public class exercicio7 {
 						case "Sexta":System.out.println("6"); break;
 						case "Sábado":System.out.println("7"); break;
 						case "Domingo":System.out.println("1"); break;
-				
+						default:System.out.println("Por favor, escolha um dia da semana válido!");
+					 
+				System.out.println("----------------------------------------------------");
 					
 				
 			}
